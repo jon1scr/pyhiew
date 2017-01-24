@@ -6,10 +6,6 @@ import traceback
 import os
 from glob import glob
 
-#
-# PUBLIC version
-#
-
 # -----------------------------------------------------------------------
 # From _hiew
 VERSION = _hiew.VERSION # Hiew and HEM version
