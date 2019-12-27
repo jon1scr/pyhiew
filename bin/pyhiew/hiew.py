@@ -255,9 +255,7 @@ def GetLastResult():
 # -----------------------------------------------------------------------
 #int HiewGate_Message(HEM_BYTE *title, HEM_BYTE *msg);
 def Message(title, msg):
-    """
-    Displays single-line message to user
-    """
+    """Displays single-line message to user"""
     return _hiew.HiewGate_Message(title, msg)
 
 # -----------------------------------------------------------------------
